@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <div className='min-h-screen bg-black'> 
-      <h1></h1> 
+      <h1> Set Up </h1> 
     </div>
     </>
   )
