@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import LandingPage from './pages/Landing'
 
 function App() {
 
   return (
     <>
-    <div className='min-h-screen bg-black'> 
-      <h1> Set Up </h1> 
+    <div> 
+      <LandingPage/>
     </div>
     </>
   )
