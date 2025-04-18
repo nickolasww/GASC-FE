@@ -8,6 +8,7 @@ const LandingPage = () => {
     <div>
       <Navbar />
       <Home />
+      <hr/>
       <About />
     </div>
   );
