@@ -21,7 +21,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ type = "text", placeholder, class
   setResults([]); 
 
   try{ 
-    const response = await fetch(" ", { 
+    const response = await fetch("Masukkan API", { 
       method: "POST", 
       headers: { 
         "Content-Type": "application/json", 
@@ -64,7 +64,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ type = "text", placeholder, class
           <ul> 
             {results.map((result, index) => ( 
               <li>
-                
+                <h3>{result.title}</h3>
+                <p>{result.summary}</p>
+                <a href={result.url} className=''>read More</a> 
               </li>
             ))}
           </ul>
